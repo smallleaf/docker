@@ -1,0 +1,1 @@
+docker run --name nginx -p 8080:80 -v /Users/yesheng/Documents/docker/docker/nginx/share:/usr/share/nginx -v /Users/yesheng/Documents/docker/docker/nginx/config/nginx.conf:/etc/nginx/conf.d/default.conf -d nginx
